@@ -13,6 +13,12 @@
   
   </head>
   <body>
+    
+   
+
+
+
+    
     <section class="vh-100" style="background-color: #9A616D;">
       <div class="container py-5 h-100">
         <div class="row d-flex justify-content-center align-items-center h-100">
@@ -30,29 +36,36 @@
     
                       <div class="d-flex align-items-center mb-3 pb-1">
                         <i class="fas fa-cubes fa-2x me-3" style="color: #ff6219;"></i>
-                        <span class="h1 fw-bold mb-0">Bem Vindo</span>
+                        <span class="h1 fw-bold mb-0">Registe-se</span>
                       </div>
     
     
                       <div class="form-outline mb-4">
-                        <input type="email" id="form2Example17" class="form-control form-control-lg" style="border-radius: 3rem;"/>
-                        <label class="form-label" for="form2Example17">Email address</label>
+                        <input type="username" id="form2Example17" class="form-control form-control-lg" style="border-radius: 3rem;"/>
+                        <label class="form-label" for="form2Example17">Username</label>
                       </div>
     
+                      <div class="form-outline mb-4">
+                        <input type="email" id="form2Example27" class="form-control form-control-lg" style="border-radius: 3rem;" />
+                        <label class="form-label" for="form2Example27">Email</label>
+                      </div>
+
                       <div class="form-outline mb-4">
                         <input type="password" id="form2Example27" class="form-control form-control-lg" style="border-radius: 3rem;" />
                         <label class="form-label" for="form2Example27">Password</label>
                       </div>
+
+                      <div class="form-outline mb-4">
+                        <input type="confirmapass" id="form2Example27" class="form-control form-control-lg" style="border-radius: 3rem;" />
+                        <label class="form-label" for="form2Example27">Confirmar Password</label>
+                      </div>
+    
     
                    
                       <div class="pt-1 mb-4">
-                        <button class="btn btn-dark btn-lg btn-block" type="button"  style="border-radius: 3rem;">Login</button>
+                        <button class="btn btn-dark btn-lg btn-block" type="button"  style="border-radius: 3rem;">Registar</button>
                       </div>
 
-    
-                      <p class="mb-5 pb-lg-2" style="color: #393f81;">Não tem conta? <a href="#!"
-                          style="color: #393f81;"> Registe-se</a></p>
-                
                     </form>
     
                   </div>

@@ -20,3 +20,12 @@ Route::get('/', function () {
 Route::get('/login', function () {  //nome que damos à rota
     return view('login');           //nome da view
 });
+
+Route::get('/registar', function () {  //nome que damos à rota
+    return view('registar');           //nome da view
+});
+
+Route::get('/inicio', function () {  //nome que damos à rota
+    return view('paginaapresentacao');           //nome da view
+});
+
