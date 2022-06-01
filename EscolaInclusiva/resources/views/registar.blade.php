@@ -19,15 +19,15 @@
 
 
     
-    <section class="vh-100" style="background-color: #9A616D;">
+    <section class="vh-100" style="background-color: #8dbcc9;">
       <div class="container py-5 h-100">
         <div class="row d-flex justify-content-center align-items-center h-100">
           <div class="col col-xl-10">
             <div class="card" style="border-radius: 1rem;">
               <div class="row g-0">
                 <div class="col-md-6 col-lg-5 d-none d-md-block">
-                  <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/img1.webp"
-                    alt="login form" class="img-fluid" style="border-radius: 1rem 0 0 1rem;" />
+                  <img src="https://www.projectbuilder.com.br/wp-content/themes/yootheme/cache/101118-revisor-entregar-ate-2806-quartafeira-16h-entenda-o-papel-das-normas-iso-no-gerenciamento-de-projetos-1-bd256abc.jpeg"
+                    alt="login form" class="img-fluid" style="border-radius: 1rem 0 0 1rem; height: 100%;" />
                 </div>
                 <div class="col-md-6 col-lg-7 d-flex align-items-center">
                   <div class="card-body p-4 p-lg-5 text-black">
@@ -36,18 +36,18 @@
     
                       <div class="d-flex align-items-center mb-3 pb-1">
                         <i class="fas fa-cubes fa-2x me-3" style="color: #ff6219;"></i>
-                        <span class="h1 fw-bold mb-0">Registe-se</span>
+                        <span class="h1 fw-bold mb-0">Registar</span>
                       </div>
     
     
                       <div class="form-outline mb-4">
                         <input type="username" id="form2Example17" class="form-control form-control-lg" style="border-radius: 3rem;"/>
-                        <label class="form-label" for="form2Example17">Username</label>
+                        <label class="form-label" for="form2Example17">Nome de Utilizador</label>
                       </div>
     
                       <div class="form-outline mb-4">
                         <input type="email" id="form2Example27" class="form-control form-control-lg" style="border-radius: 3rem;" />
-                        <label class="form-label" for="form2Example27">Email</label>
+                        <label class="form-label" for="form2Example27">E-mail</label>
                       </div>
 
                       <div class="form-outline mb-4">
