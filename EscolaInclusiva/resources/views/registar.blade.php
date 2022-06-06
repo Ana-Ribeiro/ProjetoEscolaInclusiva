@@ -52,7 +52,7 @@
                       </div>
 
                       <div class="form-outline mb-5">
-                        <input type="confirmapass" id="form2Example27" class="form-control form-control-lg" style="border-radius: 3rem;" placeholder="Confirma-password" />
+                        <input type="password" id="form2Example27" class="form-control form-control-lg" style="border-radius: 3rem;" placeholder="Confirma-password" />
                       </div>
     
     
