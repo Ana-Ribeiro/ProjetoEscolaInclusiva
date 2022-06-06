@@ -10,45 +10,82 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         {{-- bootstrap js --}}
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    </head>
+    
+        <link rel="stylesheet" href="/css/styles.css">
+        <link rel="stylesheet" href="/css/sidemenu.css">
+      </head>
     
     
     <body >
-        @yield('content')
-
-        
-        <div class="container my-5">
-        <footer
-        
-        class="text-center text-lg-start text-white"
-          style="background-color: #1AA4A6">
-          
-    <!-- Grid container -->
-    <div class="container p-4 pb-0">
-      <!-- Section: Links -->
-      <section class="">
-     
-
-          <!-- Grid column -->
-          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-            <h6 class="text-uppercase mb-4 font-weight-bold">Contactos</h6>
-            <p><i class="fas fa-home mr-3"></i> ESTG|IPVC</p>
-            <p><i class="fas fa-envelope mr-3"></i> Avenida do Atlântico, 644</p>
-            <p><i class="fas fa-phone mr-3"></i> 4900-348 Viana do Castelo</p>
-            <p><i class="fas fa-print mr-3"></i> escolainclusiva@estg.ipvc.pt</p>
-            <p><i class="fas fa-print mr-3"></i> (+351) 258 819 700</p>
-
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav text-end">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/login">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/registar">Registar</a>
+              </li>
+            </ul>
           </div>
+        </div>
+      </nav>
+
+
+
+      <div class="p-1 my-container active-cont">
+        Main Content Here
+        ...
+        Replace the menu toggle icon as per your needs
+        <a class="btn border-0" id="menu-btn">
+          <i class="bx bx-menu"></i>
+        </a>
+      </div>
+      
+      
+      
+      <div class="side-navbar active-nav d-flex justify-content-between flex-wrap flex-column" id="sidebar">
+        <ul class="nav flex-column text-white w-100">
+          <a href="#" class="nav-link h3 text-white my-2">
+            Menu
+          </a>
+          <li href="#" class="nav-link">
+            <span class="mx-2">Home</span>
+          </li>
+          <li href="#" class="nav-link">
+            <span class="mx-2">About</span>
+          </li>
+          <li href="#" class="nav-link">
+            <span class="mx-2">Contact</span>
+          </li>
+        </ul>
+      </div>
+
+
+      
+      
+      
+      @yield('content')
+      
+      
+    
+
+        
+        
+
          
 
       
  
 
  
-       
-        </footer>
-        </div>
     
+      <script src="/js/scripts.js"></script>
     </body>
 </html>
 

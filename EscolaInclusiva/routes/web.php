@@ -25,7 +25,5 @@ Route::get('/registar', function () {  //nome que damos à rota
     return view('registar');           //nome da view
 });
 
-Route::get('/inicio', function () {  //nome que damos à rota
-    return view('paginaapresentacao');           //nome da view
-});
+
 

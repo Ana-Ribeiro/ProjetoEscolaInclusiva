@@ -13,10 +13,15 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('table__projeto', function (Blueprint $table) {
+        Schema::create('utilizador', function (Blueprint $table) {
             $table->id();
-            $table->string('canal_comunicacao');
+            $table->string('nome');
+            $table->integer('password');
+            $table->string('email');
             $table->timestamps();
+
+            $table->unsignedBigInteger('tipo_id')->unsigned()->nullable();
+            $table->foreign('tipo_id')->references('id')->on('tipo__utilizador')->onDelete('cascade');
         });
     }
 
@@ -27,6 +32,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('table__projeto');
+        Schema::dropIfExists('utilizador');
     }
 };
