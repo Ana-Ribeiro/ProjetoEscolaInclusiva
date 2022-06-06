@@ -34,7 +34,7 @@
     
                     <form>
     
-                      <div class="d-flex align-items-center mb-5 pb-1">
+                      <div class="d-flex align-items-center mb-3 pb-1">
                         <span class="h1 fw-bold mb-0">Registar</span>
                       </div>
     
